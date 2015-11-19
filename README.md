@@ -76,3 +76,6 @@ improves visibility and shortens problem reaction times for IT operations staff.
 * The user interface is sloppy. Probably because it's very old.
 * Documentation not updated. The documentation given on the website refers to Ubuntu 6.x and 7.x
 
+###Screencast
+
+Link to [video](https://youtu.be/lWJqTrKmcm0)
