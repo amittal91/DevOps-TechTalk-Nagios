@@ -35,8 +35,7 @@ In brief, to setup nagios you have to do the following steps
 * Make changes to configuration files
 
 *2. Remote Host*
-* Install Nagios Plugin
-* Install NRPE
+* Install linux-nrpe-agent
 * Make changes to configuration files
 
 A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
