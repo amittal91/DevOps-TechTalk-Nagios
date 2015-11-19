@@ -52,11 +52,11 @@ A detailed tutorial about setup can be found [here](http://www.telnetport25.com/
 * Add [NagiosRemoteHost2.cfg](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server) to /usr/local/nagios/etc/objects/ . Change the IP address in the file to your remote host's IP
 * Add your contact information in /usr/local/nagios/etc/objects/contacts.cfg
 
-The configuration files needed to be replaced in the server and host have been provided in the repo.
+The configuration files needed to be replaced in the server have been provided in the repo. To add more hosts, copy the [NagiosRemoteHost2.cfg](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server) to /usr/local/nagios/etc/servers/. Rename it, change the hostname, alias and the IP address as required. Also add this host to the hostgroup in the previosly loaded config file in /usr/local/nagios/etc/objects/ or define your new hostgroup.
 
 **NOTE:**
 ```
-Restart nagios server each time you make changes to the configuration files using this command service nagios restart
+Restart nagios server each time you make changes to the configuration files using the command "service nagios restart"
 ```
 
 ###Advantages
