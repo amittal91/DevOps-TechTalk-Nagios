@@ -34,7 +34,7 @@ In brief, to setup nagios you have to do the following steps
 * Install NRPE - Nagios Remote Plugin Executor
 * Make changes to configuration files
 
-<br><br>*2. Remote Host*
+*2. Remote Host*
 * Install Nagios Plugin
 * Install NRPE
 * Make changes to configuration
