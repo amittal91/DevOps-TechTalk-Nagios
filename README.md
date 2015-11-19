@@ -22,3 +22,23 @@ Some of the many features of Nagios Core include:
 * Automatic log file rotation
 * Support for implementing redundant monitoring hosts
 * Optional web interface for viewing current network status, notification and problem history, log file, etc.
+
+###Setup Instructions
+
+To set up nagios, two digitalocean droplets were provisioned - one acting as a monitoring server and the other as the host which is supposed to be monitored remotely.
+In brief, to setup nagios you have to do the following steps
+<br><br>*1. Server*
+* Install Linux, Apache, MySQL, PHP (LAMP) stack
+* Install *nagios core*
+* Install Nagios Plugins
+* Install NRPE - Nagios Remote Plugin Executor
+* Make changes to configuration files
+
+<br><br>*2. Remote Host*
+* Install Nagios Plugin
+* Install NRPE
+* Make changes to configuration
+
+A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
+
+
