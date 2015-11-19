@@ -37,9 +37,17 @@ In brief, to setup nagios you have to do the following steps
 *2. Remote Host*
 * Install Nagios Plugin
 * Install NRPE
-* Make changes to configuration
+* Make changes to configuration files
 
 A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
+
+*3 Setting up email notification*
+* Install POSTFIX
+* Install Heirloom-MailX
+* Make changes to configuration files
+
+A detailed tutorial about setup can be found [here](http://www.telnetport25.com/2012/02/configuring-e-mail-notifications-in-nagios-core/)
+
 The configuration files needed to be replaced in the server and host have been provided in the repo.
 
 ###Advantages
