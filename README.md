@@ -42,3 +42,20 @@ In brief, to setup nagios you have to do the following steps
 A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
 The configuration files needed to be replaced in the server and host have been provided in the repo.
 
+###Advantages
+
+* *Comprehensive Monitoring in a Single Tool*: Monitoring of all mission-critical infrastructure
+components – including applications, services, operating systems, network protocols, systems
+metrics, and network infrastructure. 
+
+* *Consolidated, Central Visibility*: Provides central view of your entire IT operations network
+and business processes. Central, aggregated view of multiple monitoring server instances
+improves visibility and shortens problem reaction times for IT operations staff.
+
+* *Scalability*: Monitor thousands of devices with a single monitoring server. Distributed monitoring architectures allow for monitoring 100,000+ node environments.
+
+###Disadvantages
+
+* The user interface is sloppy. Probably because it's very old.
+* Documentation not updated. The documentation given on the website refers to Ubuntu 6.x and 7.x
+
