@@ -27,28 +27,37 @@ Some of the many features of Nagios Core include:
 
 To set up nagios, two digitalocean droplets were provisioned - one acting as a monitoring server and the other as the host which is supposed to be monitored remotely.
 In brief, to setup nagios you have to do the following steps
-<br><br>*1. Server*
+<br><br>**1. Server**
 * Install Linux, Apache, MySQL, PHP (LAMP) stack
 * Install *nagios core*
 * Install Nagios Plugins
 * Install NRPE - Nagios Remote Plugin Executor
-* Make changes to configuration files
-
-*2. Remote Host*
-* Install Nagios Plugin
-* Install NRPE
-* Make changes to configuration files
 
 A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
 
-*3 Setting up email notification*
+**2. Remote Host**
+* Install linux-nrpe-agent
+* Allow the nagios-Server to access the remote host
+
+A detailed tutorial about setup can be found [here](https://assets.nagios.com/downloads/nagiosxi/docs/Installing_The_XI_Linux_Agent.pdf)
+
+**3. Setting up email notification**
 * Install POSTFIX
 * Install Heirloom-MailX
-* Make changes to configuration files
 
 A detailed tutorial about setup can be found [here](http://www.telnetport25.com/2012/02/configuring-e-mail-notifications-in-nagios-core/)
 
+**4. Make changes in configuration files**
+* Replace /usr/local/nagios/etc/objects/command.cfg with commands.cfg provided [here](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server)
+* Add [NagiosRemoteHost2.cfg](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server) to /usr/local/nagios/etc/objects/ . Change the IP address in the file to your remote host's IP
+* Add your contact information in /usr/local/nagios/etc/objects/contacts.cfg
+
 The configuration files needed to be replaced in the server and host have been provided in the repo.
+
+**NOTE:**
+```
+Restart nagios server each time you make changes to the configuration files using this command service nagios restart
+```
 
 ###Advantages
 
