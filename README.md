@@ -49,7 +49,7 @@ A detailed tutorial about setup can be found [here](http://www.telnetport25.com/
 
 *4 Make changes in configuration files*
 * Replace /usr/local/nagios/etc/objects/command.cfg with commands.cfg provided [here](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server)
-* Add (NagiosRemoteHost2.cfg)[https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server] to /usr/local/nagios/etc/objects/ . Change the IP address in the file to your remote host's IP
+* Add [NagiosRemoteHost2.cfg](https://github.com/amittal91/DevOps-TechTalk-Nagios/tree/master/Config-Server) to /usr/local/nagios/etc/objects/ . Change the IP address in the file to your remote host's IP
 * Add your contact information in /usr/local/nagios/etc/objects/contacts.cfg
 
 The configuration files needed to be replaced in the server and host have been provided in the repo.
