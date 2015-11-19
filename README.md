@@ -40,5 +40,5 @@ In brief, to setup nagios you have to do the following steps
 * Make changes to configuration
 
 A detailed tutorial about setup can be found [here](https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04)
-
+The configuration files needed to be replaced in the server and host have been provided in the repo.
 
